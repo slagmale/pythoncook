@@ -1,2 +1,2 @@
 # pythoncook
-python cook学习笔记
+a record of learning pythoncook
