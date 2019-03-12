@@ -13,7 +13,7 @@ def search(lines, pattern, history=5):
     previous_lines = deque(maxlen=history)
     for line in lines:
         if pattern in line:
-            yield line, previous_lines  # 带yield的函数是生成器，在程序中返回值，之后程序不往下运行啦
+            yield line, previous_lines  # 带yield的函数是生成器，在程序中返回值，之后程序不往下运行
         previous_lines.append(line)
 
 
