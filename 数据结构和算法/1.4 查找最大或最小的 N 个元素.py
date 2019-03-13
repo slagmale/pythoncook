@@ -10,7 +10,6 @@ nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]
 print(heapq.nlargest(3, nums))  # 得到最大的三个数
 print(heapq.nsmallest(3, nums))  # 得到最小的三个数
 
-
 '''
 当要查找的元素个数相对比较小的时候，函数 nlargest() 和 nsmallest() 是很
 合适的。如果你仅仅想查找唯一的最小或最大（N=1）的元素的话，那么使用 min() 和
@@ -32,5 +31,3 @@ portfolio = [
 # 这里根据price的值来比较
 cheap = heapq.nsmallest(3, portfolio, key=lambda s: s['price'])
 expensive = heapq.nlargest(3, portfolio, key=lambda s: s['price'])
-
-
