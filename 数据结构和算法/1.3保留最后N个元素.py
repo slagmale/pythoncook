@@ -17,6 +17,7 @@ def search(lines, pattern, history=5):
         previous_lines.append(line)
 
 
+
 '''
 写查询元素的代码时，通常使用包含yield表达式的生成器函数
 将搜索过程和使用搜索结果代码解耦
